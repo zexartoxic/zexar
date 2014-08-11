@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Zexar - Developer</title>
+	<meta name="description" content="Anchetas">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='css/css.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet"  href="css/estilo.css"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="js/bootstrap/css/bootstrap.min.css"/>
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <!--<link rel="stylesheet" type="text/css" href="css/jquery.mobile.squareui.css" />-->
+    <!--<link rel="stylesheet" href="js/jqueryMobile/jquery.mobile.theme-1.4.3.min.css" />-->
+    <link rel="stylesheet" href="js/jqueryMobile/jquery.mobile.structure-1.4.3.min.css"/>
+    <link rel="stylesheet" href="js/jqueryMobile/jquery.mobile.icons-1.4.3.css" />
+    <script src="js/jqueryMobile/jquery.mobile-1.4.3.min.js"></script>
+    <script type="text/javascript" src="js/easyslider1.7/js/jquery.js"></script>
+    <script type="text/javascript" src="js/easyslider1.7/js/easySlider1.7.js"></script>
+    <link href="js/easyslider1.7/css/screen.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+	<!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here 
+    <p>Hello world! This is HTML5 Boilerplate.</p>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>-->
+    <script>
+    $(document).ready(function(){   
+    $("#slider").easySlider({
+        auto: true,
+        continuous: true,
+        nextId: "slider1next",
+        prevId: "slider1prev"
+    });
+    $("#slider2").easySlider({ 
+        numeric: true
+    });
+});</script>
+<!-- *************************  PAGINA DE INICIO        ******************************** -->
+    <div data-role="page" id="Home">
+        <header data-position="fixed" data-id="cabeza">
+          
+        </header>
+    	<section data-role="content" class="container">
+            <nav class="menu5">
+                <ul>
+                    <li>
+                        <input type="text" id="buscador" placeholder="search...">
+                    </li>  
+                    <a href="#">
+                    <li>
+                        <div class="barra"></div>
+                        <p class="menu">Home</p>
+                    </li>
+                    </a>
+                    <a href="#">
+                    <li>
+                        <div class="barra"></div>
+                        <p class="menu">Skills</p>
+                    </li>
+                    </a>
+                    <a href="#">
+                    <li>
+                        <div class="barra"></div>
+                        <p class="menu">portafolio</p>
+                    </li>
+                    </a>
+                </ul>
+            </nav>
+            <div class="vacio">
+                <div class="welcome">
+                    <div class="myface"><img src="imagenes/face.jpg" alt=""></div>
+                    <h1>Julio Cesar Cortes</h1>
+                    <p class="guia">web developer</p>
+                    <p class="guia">
+                        hello, I'm zexar(nick in games) xD 
+                    </p>
+                    <div class="redes">   
+                        <a href="https://www.facebook.com/zexartoxic" target="_blank" id="icono"><img src="imagenes/facebook.png" alt="facebook"></a>
+                        <a href="https://plus.google.com/116656404072387912726/posts" target="_blank" id="icono"><img src="imagenes/googleplus.png"></a>
+                        <a href="https://co.linkedin.com/" target="_blank"><img src="imagenes/linkedin.png" id="icono"></a>
+                        <a href="https://twitter.com/AcurstinSoft" target="_blank"><img src="imagenes/twitter.png" title="@AcurstinSoft" id="icono"></a>
+                    </div>
+                </div>
+             </div>
+            <div class="informacion">
+                <h2>About Me:</h2>
+                <ul class="menu2">
+                    <li class="titulo1"><span class="team1">&nbsp;&nbsp;Skills</span></li>
+                    <li><a href="#item1" class="item1">&nbsp;&nbsp;responsive design</a><br><progress id="progressbar" value="80" max="100"></progress></li>
+                    <li><a href="#item1" class="item2">&nbsp;&nbsp;mobile first</a><br><progress id="progressbar" value="75" max="100"></li>
+                    <li><a href="#item1" class="item3">&nbsp;&nbsp;HTML5</a><br><progress id="progressbar" value="95" max="100"></li>
+                    <li><a href="#item2" class="item4">&nbsp;&nbsp;CSS3</a><br><progress id="progressbar" value="95" max="100"></li>
+                    <li><a href="#item3" class="item5">&nbsp;&nbsp;JavaScript<br><progress id="progressbar" value="70" max="100"></a></li>
+                    <li><a href="#item4" class="item6">&nbsp;&nbsp;PHP</a><br><progress id="progressbar" value="60" max="100"></li>
+                    <li><a href="#item4" class="item7">&nbsp;&nbsp;MYSQL</a><br><progress id="progressbar" value="50" max="100"></li>
+                    <li><a href="#item4" class="item8">&nbsp;&nbsp;ORACLE</a><br><progress id="progressbar" value="50" max="100"></li>
+                    <li><a href="#item4" class="item9">&nbsp;&nbsp;Node.js</a><br><progress id="progressbar" value="40" max="100"></li>
+                    <li><a href="#item4" class="item10">&nbsp;&nbsp;java</a><br><progress id="progressbar" value="45" max="100"></li>
+                    <li><a href="#item4" class="item11">&nbsp;&nbsp;Python</a><br><progress id="progressbar" value="20" max="100"></li>
+                    <li><a href="#item4" class="item12">&nbsp;&nbsp;MongoDB</a><br><progress id="progressbar" value="10" max="100"></li>
+                    <br>
+                    <li class="titulo1"><span class="team2"></span>&nbsp;&nbsp;In Frameworks</li>
+                    <li><a href="#item1" class="item13">&nbsp;&nbsp;Jquery</a><br><progress id="progressbar" value="65" max="100"></li>
+                    <li><a href="#item1" class="item14">&nbsp;&nbsp;Jquery-Mobile</a><br><progress id="progressbar" value="60" max="100"></li>
+                    <li><a href="#item1" class="item15">&nbsp;&nbsp;Boostrap</a><br><progress id="progressbar" value="55" max="100"></li>
+                    <li><a href="#item1" class="item16">&nbsp;&nbsp;BackBone.js</a><br><progress id="progressbar" value="40" max="100"></li>
+                    <li><a href="#item1" class="item17">&nbsp;&nbsp;Django</a><br><progress id="progressbar" value="20" max="100"></li>
+                    <br>
+                    <li  class="titulo1"><span class="team3"></span>&nbsp;&nbsp;In CMS</li>
+                    <li><a href="#item1" class="item18">&nbsp;&nbsp;Joomla</a><br><progress id="progressbar" value="60" max="100"></li>
+                    <li><a href="#item1" class="item19">&nbsp;&nbsp;WordPress</a><br><progress id="progressbar" value="30" max="100"></li>
+                    <br>
+                    <li  class="titulo1"><span class="team4"></span>&nbsp;&nbsp;Version Control System</li>
+                    <li><a href="#item1" class="item20">&nbsp;&nbsp;GitHub</a><br><progress id="progressbar" value="45" max="100"></li>
+                    <br>
+                    <li class="titulo1"><span class="team5"></span>&nbsp;&nbsp;favorite code editor</li>
+                    <li><a href="#" class="item21">&nbsp;&nbsp;sublime text2</a><br><progress id="progressbar" value="70" max="100"></li>
+                </ul>
+            </div>
+            <div class="portafolio">
+                <h3>Portafolio</h3>
+                <div class="imagen it1">
+                    <div class="info">
+                        <p class="headline">Acurstin Soft</p>
+                        <p class="info2">Empresa de desarrollo web</p>
+                        <a href="http://acurstinsoft.esy.es/" target="_blank" class="info3">Ver Sitio</a>
+                    </div>
+                </div>
+                 <div class="imagen it2">
+                    <div class="info">
+                        <p class="headline">Acurstin Soft Movil</p>
+                        <p class="info2">Empresa de desarrollo web</p>
+                        <a href="http://rmovil.esy.es/" target="_blank" class="info3">Ver Sitio</a>
+                    </div>
+                </div>
+                <div class="imagen it3">
+                    <div class="info">
+                        <p class="headline">Wishes&Dreams</p>
+                        <p class="info2">Anchetas y regalos</p>
+                        <a href="http://soawish.esy.es/" target="_blank" class="info3" >Ver Sitio</a>
+                    </div>
+                </div>
+                <div class="imagen it4">
+                   <div class="info">
+                        <p class="headline">Frontend</p>
+                        <p class="info2">Sitio de Pruebas</p>
+                        <a href="http://frontendr.esy.es/" target="_blank" class="info3" >Ver Sitio</a>
+                    </div>
+                </div>
+                <div class="imagen it5">
+                    <div class="info">
+                        <p class="headline">Fundacion</p>
+                        <p class="info2">Una organizacion sin Animo de lucro para la comunidad de la comuna 6</p>
+                        <a href="http://fchumana.esy.es/" target="_blank" class="info3" >Ver Sitio</a>
+                    </div>
+                </div>
+                <div class="imagen">
+                    <div class="info">
+                        <p class="headline">Artifixial</p>
+                        <p class="info2">Banda Musical de Genero Post-Hardcore</p>
+                        <a href="#"class="info3" >Ver Sitio</a>
+                    </div>      
+                </div>
+                <div class="imagen">
+                    <div class="info">
+                        <p class="headline">Vingen</p>
+                        <p class="info2">Sitio de Pruebas</p>
+                        <a href="#"class="info3" >Ver Sitio</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+       <footer data-role="footer" data-position="fixed">
+           <h4>Powered - Zexar - 2014</h4>
+        </footer>
+    </div>
+
+<!-- *************************  FIN DE PAGINA DE INICIO ******************************** -->
+</body>
+</html>
