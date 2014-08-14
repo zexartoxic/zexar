@@ -32,6 +32,20 @@
 
         })
     </script>
+    <script>
+        $(document).ready(function(){
+            $('#nav').localScroll(800);    
+            //.parallax(xPosition, speedFactor, outerHeight) options:
+            //xPosition - Horizontal position of the element
+            //inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+            //outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+            $('#intro').parallax("50%", 0.1);
+            $('#second').parallax("50%", 0.1);
+            $('.bg').parallax("50%", 0.4);
+            $('#third').parallax("50%", 0.3);
+
+        })
+    </script>
 <body>
 	<!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -164,8 +178,9 @@
             </div>
         </div>
         <div id="fifth">
-        <div class="formulario" data-role="content">
-           <h5>Contact</h5>
+             <h5>Contact</h5>
+        <div class="formulario">
+          
                 <?php
                     if (!isset($_POST["submit"])) {
                 ?>
@@ -209,6 +224,7 @@
                     }
                 ?>
             </div>
+        </div> <!--#fifth-->
             <div class="grupo">
                 <div class="redes">   
                     <a href="https://www.facebook.com/zexartoxic" target="_blank" id="icono"><img src="imagenes/facebook.png" alt="facebook"></a>
@@ -222,8 +238,9 @@
                     <p class="telefono">&nbsp;3192058836</p>
                     <p class="horario">&nbsp;Horario de atenci&oacute;n : Lunes - Viernes (8 am - 6 pm)</p>
                 </div>
+                <span class="arriba">&nbsp;&nbsp;<a href="#intro" title="Next Section">ir Aribba?</a></span>
             </div>
-        </div> <!--#fifth-->
+        
     </section>
     <footer><h4>Powered - Zexar - 2014</h4></footer>
 <!-- *************************  FIN DE PAGINA DE INICIO ******************************** -->

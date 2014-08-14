@@ -41,10 +41,11 @@
 
 #fifth{
 	background: #3A4357;
-	height: 800px;
+	height: 450px;
 	margin: 0 auto;
 	padding: 40px 0 0 0;
 }
+
 @media screen and (max-width: 768px){
 	#third{
 	/*background: url(images/thirdBG.jpg) 50% 0 no-repeat fixed;*/
@@ -61,3 +62,9 @@
 }
 
 }
+@media screen and (max-width: 497px){
+	#fifth{
+		display: none;
+	}
+
+}	
