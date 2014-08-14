@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+ #intro, #second{
+	width: 100%;
+}
+
+#intro{
+	background: #fff 50% 0 no-repeat fixed;
+	/*background:url(images/firstBG.jpg) 50% 0 no-repeat fixed;*/
+	color: white;
+	height: 1050px;
+	margin: -115px 0px 0px 0px;
+	padding: 0;
+}
+
+#second{
+	background: #401357 50% 0 no-repeat fixed;
+	/*background: url(images/secondBG.jpg) 50% 0 no-repeat fixed;*/
+	color: white;
+	height: 1775px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+}
+/*
+#second .bg{
+	background: url(images/trainers.png) 50% 0 no-repeat fixed;
+	height: 1300px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 900px;
+	z-index: 200;
+}
+*/
+#third{
+	/*background: url(images/thirdBG.jpg) 50% 0 no-repeat fixed;*/
+	color: white;
+	height: 3200px;
+}
+
+#fifth{
+	background: #3A4357;
+	height: 800px;
+	margin: 0 auto;
+	padding: 40px 0 0 0;
+}
+@media screen and (max-width: 768px){
+	#third{
+	/*background: url(images/thirdBG.jpg) 50% 0 no-repeat fixed;*/
+	color: white;
+	height: 1400px;
+}
+#intro{
+	background: #fff 50% 0 no-repeat fixed;
+	/*background:url(images/firstBG.jpg) 50% 0 no-repeat fixed;*/
+	color: white;
+	height: 920px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+}
